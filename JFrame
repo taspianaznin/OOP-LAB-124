@@ -1,0 +1,20 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class MyWindow {
+
+    public static void main(String[] args) {
+        
+        JFrame f=new JFrame();
+        f.setTitle("MyWindow");
+        f.setSize(300,200);
+        f.setVisible(true);
+        Container c=f.getContentPane();
+        c.setBackground(Color.red);
+        f.setResizable(false);//restricting the user to resize the window
+    }
+
+   
+
+    
+}
